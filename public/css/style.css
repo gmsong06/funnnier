@@ -1,0 +1,12 @@
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.header {
+    margin-top: 2rem;
+}
+
+textarea {
+    padding-left: 10px;
+    padding-top: 10px;
+}
