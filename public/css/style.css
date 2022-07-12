@@ -1,3 +1,7 @@
+body {
+    background-image: url("/img/bg.png");
+}
+
 .container {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -10,3 +14,56 @@ textarea {
     padding-left: 10px;
     padding-top: 10px;
 }
+
+.title {
+    width: 600px;
+    height: 400px;
+}
+
+.result {
+    position: relative;
+    top: 7%;
+}
+
+.pikachu {
+    position: relative;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.pikachu:hover {
+    cursor: pointer;
+}
+.button-1 {
+    background-color: red;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.3s;
+  }
+  
+  .button-1:hover {
+    background-color: hsl(52, 100%, 50%);
+    color: black;
+  }
